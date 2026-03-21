@@ -18,14 +18,11 @@ GEMINI_URL = (
     "gemini-1.5-flash:generateContent"
 )
 
-# Danh sách nguồn RSS crypto — thêm/xoá tuỳ ý
+# Danh sách nguồn RSS — thêm/xoá tuỳ ý
 RSS_SOURCES = [
-    # 📰 Tin tức crypto quốc tế
-    {"name": "CoinDesk",        "url": "https://www.coindesk.com/arc/outboundfeeds/rss/"},
-    {"name": "CoinTelegraph",   "url": "https://cointelegraph.com/rss"},
-    {"name": "CryptoSlate",     "url": "https://cryptoslate.com/feed/"},
-    {"name": "Decrypt",         "url": "https://decrypt.co/feed"},
-    {"name": "The Block",       "url": "https://www.theblock.co/rss.xml"},
+    # 📰 Tin tức tổng hợp
+    {"name": "BBC News",  "url": "https://feeds.bbci.co.uk/news/rss.xml"},
+    {"name": "VnExpress", "url": "https://vnexpress.net/rss/tin-moi-nhat.rss"},
 
     # 📱 Kênh Telegram (qua RSSHub)
     {"name": "TradeCoin Underground", "url": "https://rsshub.app/telegram/channel/tradecoinundergroundchannel"},
