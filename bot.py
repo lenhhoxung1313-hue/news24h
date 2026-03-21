@@ -18,14 +18,27 @@ GEMINI_URL = (
     "gemini-1.5-flash:generateContent"
 )
 
-# Danh sách nguồn RSS — thêm/xoá tuỳ ý
+# Danh sách nguồn RSS crypto — thêm/xoá tuỳ ý
 RSS_SOURCES = [
-    {"name": "VnExpress",   "url": "https://vnexpress.net/rss/tin-moi-nhat.rss"},
-    {"name": "Tuổi Trẻ",   "url": "https://tuoitre.vn/rss/tin-moi-nhat.rss"},
-    {"name": "Thanh Niên", "url": "https://thanhnien.vn/rss/home.rss"},
-    {"name": "Zing News",  "url": "https://zingnews.vn/timeline.rss"},
-    {"name": "Dân Trí",    "url": "https://dantri.com.vn/rss/home.rss"},
-    {"name": "Nhân Dân",   "url": "https://nhandan.vn/rss/all.rss"},
+    # 📰 Tin tức crypto quốc tế
+    {"name": "CoinDesk",        "url": "https://www.coindesk.com/arc/outboundfeeds/rss/"},
+    {"name": "CoinTelegraph",   "url": "https://cointelegraph.com/rss"},
+    {"name": "CryptoSlate",     "url": "https://cryptoslate.com/feed/"},
+    {"name": "Decrypt",         "url": "https://decrypt.co/feed"},
+    {"name": "The Block",       "url": "https://www.theblock.co/rss.xml"},
+
+    # 📱 Kênh Telegram (qua RSSHub)
+    {"name": "TradeCoin Underground", "url": "https://rsshub.app/telegram/channel/tradecoinundergroundchannel"},
+    {"name": "LKS02 Community",       "url": "https://rsshub.app/telegram/channel/LKS02community"},
+    {"name": "GTrading Channel",      "url": "https://rsshub.app/telegram/channel/gtradingchannel"},
+    {"name": "Hocvien Underground",   "url": "https://rsshub.app/telegram/channel/HocvienUndergroundNew"},
+    {"name": "Luca Channel",          "url": "https://rsshub.app/telegram/channel/lucachannel79"},
+    {"name": "Ho Van Thuc",           "url": "https://rsshub.app/telegram/channel/hovanthuc"},
+    {"name": "Richkid Tradings",      "url": "https://rsshub.app/telegram/channel/Richkidtradings"},
+    {"name": "Jess Training",         "url": "https://rsshub.app/telegram/channel/Jesstraining"},
+    {"name": "Lucy Zubu UG",          "url": "https://rsshub.app/telegram/channel/LucyZubuUG"},
+    {"name": "Binance",               "url": "https://rsshub.app/telegram/channel/binance"},
+    {"name": "Crypto Whale",          "url": "https://rsshub.app/telegram/channel/CryptoWhale"},
 ]
 
 MAX_ARTICLES_PER_SOURCE = 3
